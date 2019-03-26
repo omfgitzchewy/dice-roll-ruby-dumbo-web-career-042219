@@ -5,5 +5,5 @@
 def roll
   # code goes here
   ran_num = Random.new
-  ran_num.rand(6)
+  ran_num.rand(1..6)
 end
